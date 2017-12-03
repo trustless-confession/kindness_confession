@@ -1,4 +1,4 @@
-#Kindness Confessions
+# Kindness Confessions
 
 Just thought of making a website app for people to post their act of kindness that they encounter or done.
 
