@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 20171202223256) do
   enable_extension "plpgsql"
 
   create_table "posts", force: :cascade do |t|
-    t.string "title"
     t.text "body"
     t.string "author"
     t.integer "authorise", default: 0
