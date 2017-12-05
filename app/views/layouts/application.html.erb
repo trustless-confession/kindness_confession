@@ -9,20 +9,30 @@
   </head>
 
   <body>
+
 		<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-			<a class="navbar-brand" href="#">
+			<%= link_to root_path do %>
 				<%= image_tag("KC_logo_edited.png", alt: "KindnessConfessions", width: 250, length: 250) %>
-			</a>
+			<% end %>
 
 			<ul class="navbar-nav ml-auto">
 		    <li class="nav-item active">
-		      <a class="nav-link">Why share?</a>
+		      <%= link_to "Why share?", reason_path, class: "nav-link" %>
 		    </li>
 		    <li class="nav-item">
-		      <a class="nav-link">About this website</a>
+		      <%= link_to "About this website", about_this_path, class: "nav-link" %>
 		    </li>
 		  </ul>
 		</nav>
+    
     <%= yield %>
+
+    <br />
+    <footer class="footer">
+    	<div class="container-fluid">
+    		<p>Kindness Confessions &copy; 2017</p>
+    	</div>
+    </footer>
+  
   </body>
 </html>

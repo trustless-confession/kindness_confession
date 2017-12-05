@@ -4,4 +4,8 @@ Rails.application.routes.draw do
   root "posts#index"
 
   resources :posts
+
+  get 'post/reason', to: 'posts#reason', as: :reason
+  get 'post/about_this', to: 'posts#about_this', as: :about_this
+
 end
