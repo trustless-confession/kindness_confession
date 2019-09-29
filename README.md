@@ -8,4 +8,4 @@ I felt that people should know that there are genuine good people around in this
 
 ## How do I contribute?
 
-Well you can head to the link: `kindnessconfession.herokuapp.com` to post your stories of you encountered by kindness. Have a nice day ahead!
+Well you can head to the link: `kindnessconfessions.herokuapp.com` to post your stories of you encountered by kindness. Have a nice day ahead!
